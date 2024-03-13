@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=18"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "ts-node test.ts",
     "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node test.ts",
@@ -20,7 +20,7 @@
     "qdpayU",
     "nodejs-sdk"
   ],
-  "author": "",
+  "author": "Moon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/qdpayU/qdpay-node-sdk/issues"
