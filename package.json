@@ -2,6 +2,9 @@
   "name": "qdpay-nodejs-sdk",
   "version": "1.0.0",
   "description": "nodejs sdk for qdpayU.",
+  "engines": {
+    "node": ">=18"
+  },
   "main": "index.js",
   "scripts": {
     "start": "ts-node test.ts",
@@ -10,7 +13,7 @@
     "test": "jest --coverage"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/qdpayU/qdpay-node-sdk.git"
   },
   "keywords": [
