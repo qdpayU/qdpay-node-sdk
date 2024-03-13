@@ -1,0 +1,41 @@
+{
+  "name": "qdpay-nodejs-sdk",
+  "version": "1.0.0",
+  "description": "nodejs sdk for qdpayU.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node test.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node test.ts",
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/qdpayU/qdpay-node-sdk.git"
+  },
+  "keywords": [
+    "qdpayU",
+    "nodejs-sdk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qdpayU/qdpay-node-sdk/issues"
+  },
+  "homepage": "https://github.com/qdpayU/qdpay-node-sdk#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "reqeust": "^2.81.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.26",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
